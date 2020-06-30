@@ -93,3 +93,56 @@ GET /transactions: Essa rota deve retornar uma listagem com todas as transaçõe
   }
 }
 ```
+
+
+## Instalação
+
+Configure e crie o banco de acordo com a config:
+
+```
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "docker",
+  "database": "gostack_desafio06",
+  "entities": ["./src/models/*.ts"],
+  "migrations": ["./src/database/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
+```
+
+Crie uma database com nome gostack_desafio06_test para realizar os testes.
+
+Utilize os comandos para instalar as dependencias:
+
+```sh
+npm install 
+or
+yarn
+or
+yarn instal
+```
+
+## Configuração para Desenvolvimento
+
+Para executar a aplicação:
+
+```
+yarn start
+```
+
+Para executar os testes:
+
+```
+yarn test
+```
+
+## Meta
+
+Pedro Lisboa – [@Pedro-lbrt](https://www.linkedin.com/in/pedro-lbrt/...) – pegu_lisboa@hotmail.com
+
+[https://github.com/pedro-lisboa/GoBarber-backend](https://github.com/pedro-lisboa/)
