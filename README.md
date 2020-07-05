@@ -143,6 +143,6 @@ yarn test
 
 ## Meta
 
-Pedro Lisboa – [@Pedro-lbrt](https://www.linkedin.com/in/pedro-lbrt/...) – pegu_lisboa@hotmail.com
+Pedro Lisboa – [@Pedro-Lisboa](https://www.linkedin.com/in/pedro-lbrt/...) – pegu_lisboa@hotmail.com
 
 [https://github.com/pedro-lisboa/GoBarber-backend](https://github.com/pedro-lisboa/)
